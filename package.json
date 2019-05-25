@@ -1,0 +1,28 @@
+{
+  "name": "polyphasicTracker",
+  "displayName": "Polyphasic Tracker",
+  "version": "0.0.1",
+  "description": "An app to get and track polyphasic sleep related data from users in the Polyphasic Sleeping Discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Litchnom",
+  "dependencies": {
+    "cordova-browser": "^6.0.0"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}
